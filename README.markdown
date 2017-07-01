@@ -1,3 +1,11 @@
+depends on simpleaudio to play sound. Needs python3 to work.
+sudo apt-get install -y python3-dev libasound2-dev
+pip install --upgrade pip setuptools
+pip install simpleaudio
+
+launch run.py to make some random music. 
+______________________________________________________
+
 ## Overview
 
 PySynth is a simple music synthesizer written in Python 3. The goal is not to produce many different sounds, but to have scripts that can turn ABC notation or MIDI files into a WAV file without too much tinkering.
