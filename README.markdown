@@ -1,6 +1,9 @@
 depends on simpleaudio to play sound. Needs python3 to work.
+
 sudo apt-get install -y python3-dev libasound2-dev
+
 pip install --upgrade pip setuptools
+
 pip install simpleaudio
 
 launch run.py to make some random music. 
